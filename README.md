@@ -1,1 +1,3 @@
-Creating easy games in python
+Creating Easy games in python
+
+Quiz game in python
