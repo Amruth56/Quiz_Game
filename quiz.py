@@ -25,8 +25,13 @@ if answer.lower()=='yes':
         print('\nYou have given the correct answer')
     else:
         print('\nWrong Answer, the correct answer is GreenLand')
+
+else:
+    print("Thank you for your time")
+
+    print(f'\nThankyou for playing this game with us. Out of 3 you have answered {score} correctly')
+    mark=(score/total_questions)*100
+    print('\nTotal Marks obtained:',mark)
+    print('\nHope to meet you soon in someother game')
+
  
-print(f'\nThankyou for playing this game with us. Out of 3 you have answered {score} correctly')
-mark=(score/total_questions)*100
-print('\nTotal Marks obtained:',mark)
-print('\nHope to meet you soon in someother game')
